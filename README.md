@@ -31,7 +31,7 @@ Our system allows users to edit one item (i.e. one piece of information) in each
 #### 5)	Show records.
 Our system can show all the records save in the system by standard output. Also, the net income based on all records in the presented list will be shown to users.
 #### 6)	Write records to file
-Our system can create a file called “Financial_Records.txt” and output all the records to this file. If users choose this command multiple times, the system will overwrite this file.
+Our system can create a file called "Financial_Records.txt" and output all the records to this file. If users choose this command multiple times, the system will overwrite this file.
 #### 7)	Search records.
 Our system allows users to search for certain records by amount, type, account, and date. All they need to do is to follow the guidance and answer some questions. They can choose whether to search by certain piece of information or not. And if they search by amount, they need to provide the minimum and maximum amount of money. If they search by date, they need to provide the earliest date and latest date.
 #### 8)	Check financial states.
@@ -42,33 +42,33 @@ Our system can change the amount of money of all records if users provide the ex
 ### Input:
 All inputs should strictly follow the rules that our output guidance messages provide. 
 
-All multiple-choice questions with given options must be only inputted with the given number (e.g. Users should not input “3” or “*2. Expenditure*” if the above output message is *“Please indicate whether it is income or expenditure. 1. Income 2. Expenditure”*).
+All multiple-choice questions with given options must be **only** inputted with the **given number** (e.g. Users **should not** input "*3*" or "*2. Expenditure*" if the above output message is "*Please indicate whether it is income or expenditure. 1. Income 2. Expenditure*").
 
-When users input the amount of money of a record, the number (variable type: double) should not be too large (less than 100 billion).
+When users input the amount of money of a record, the number (variable type: double) **should not be too large** (less than 100 billion).
 
-When users input the date of a record, the input should be a 6-digit integer in the format of yyyymmdd and it must represent a valid date in real life (e.g. Users should input 20190427 which represents April 27th in 2019).  
+When users input the date of a record, the input should be a **6-digit integer** in the format of *yyyymmdd* and it must represent a **valid date** in real life (e.g. Users should input "*20190427*" which represents April 27th in 2019).  
 
-When adding records from a file, users should input the full name of a file (Input “test.txt” instead of “test” if the records are in an existing file test.txt). Furthermore, users must ensure that each line of this file should contain five numbers which also follow the rules mentioned above (e.g. A line contains "5000 2 6 7 20190101” is valid while a line contains "5000 Expenditure Education Cash 20190101" is invalid). 
+When adding records from a file, users should input the **full name** of a file (Input "*test.txt*" instead of "*test*" if the records are in an existing file test.txt). Furthermore, users must ensure that each line of this file should contain **five numbers** which also follow the rules mentioned above (e.g. A line contains "*5000 2 6 7 20190101*" is **valid** while a line contains "*5000 Expenditure Education Cash 20190101*" is **invalid**). 
 ### Output:
-When users first enter our accounting system, it will output a welcome message. 
+When users first enter our accounting system, it will output a **welcome message**. 
 
-Then for the beginning budget setting module, it output a message including two options to ask whether users set budget or not. If users choose 1, it will output “Please input your budget for every month.” If you choose 2, it will output "You have chosen not to set a budget. You can set your budget afterward.". If you input an invalid choice, it will output "Invalid choice. Budget setting failed. You can set your budget afterward.".
+Then for the **beginning budget setting** module, it output a message including two options to ask whether users set budget or not. If users choose 1, it will output "*Please input your budget for every month.*" If you choose 2, it will output "*You have chosen not to set a budget. You can set your budget afterward.*". If you input an invalid choice, it will output "*Invalid choice. Budget setting failed. You can set your budget afterward.*".
 
-The message “Please make a choice:” followed by “0. Quit” and 9 main functionalities of our system can be considered as the main interface of our accounting system. Hence, each round of operation starts with this.
+The message "*Please make a choice:*" followed by "*0. Quit*" and 9 main functionalities of our system can be considered as the **main interface** of our accounting system. Hence, each round of operation starts with this.
 
-A separation line will be output to separate each user input and each program output and output of different modules during the running of our system. This allows users to capture and identify information more clearly when running programs directly.
+A **separation line** will be output to separate each user input and each program output and output of different modules during the running of our system. This allows users to capture and identify information more clearly when running programs directly.
 
-Our system always outputs some guidance messages when users need to input something. For multiple-choice questions in some modules, our system output descriptions followed by some options and each option occupies one line.
+Our system always outputs some **guidance messages** whenever users need to input something. For multiple-choice questions in some modules, our system output **descriptions** followed by some options and **each option occupies one line**.
 
-Our system also outputs some confirmation message when a certain operation is done. After users edit a record, it will output “The edition is done.". After users delete a record, it will output “The deletion is done.”. After writing records to file, it will output "All your financial records have been written to the file "Financial_Records.txt".”. After users set or change the budget, it will output “Budget setting successful.”. After changing the type of currency, it will output “Operation successful”.
+Our system also outputs some **confirmation message** when a certain operation is done. After users edit a record, it will output "*The edition is done.*". After users delete a record, it will output "*The deletion is done.*". After writing records to file, it will output "*All your financial records have been written to the file "Financial_Records.txt".*". After users set or change the budget, it will output "*Budget setting successful.*". After changing the type of currency, it will output "*Operation successful*".
 
-Our system outputs alert message when necessary. If the system cannot open the file when adding records from a file, it will output an alert message “Error in the file opening!” and continue to next round of operation. Also, there would be an alert if the expenditure of any month exceeds the budget. The alert message of one month follows the format of “Your monthly expenditure in yyyy-mm exceeds the budget by amount” (amount is a double representing the exceeded amount of money)”. The message may contain multiple lines because there might not be only one monthly expenditure that exceeds the budget.
+Our system outputs **alert message** when necessary. If the system cannot open the file when adding records from a file, it will output an alert message "*Error in the file opening!*" and continue to next round of operation. Also, there would be an alert if the expenditure of any month exceeds the budget. The alert message of one month follows the format of "*Your monthly expenditure in yyyy-mm exceeds the budget by amount*" (amount is a double representing the exceeded amount of money). The message may contain multiple lines because there might not be only one monthly expenditure that exceeds the budget.
 
-Whenever the system shows a list of records (it happens when users edit, show, search records or write records to file), it will output in such a format. The first line is the description of each item in one line of record. Six items are “Serial Number”, “Amount”, “Income/Expenses”, “Type”, “Account” and “Date”. The following lines are the details of the records. Records in the list are sorted based on their dates and each record is attached with a serial number. The last line output tells users the total net income based on records of the list above (except when writing records to file).
+Whenever the system **shows a list of records** (it happens when users edit, show, search records or write records to file), it will output in such a format. The first line is the description of each item in one line of record. **Six items** are "*Serial Number*", "*Amount*", "*Income/Expenses*", "*Type*", "*Account*" and "*Date*". The following lines are the details of the records. Records in the list are sorted based on their dates and each record is attached with a serial number. The last line output tells users the **total net income** based on records of the list above (except when writing records to file).
 
-When checking financial states, the system output guidance message including five options. When users choose 1 or 3, the output format is “yyyy-mm amount”. When users choose 2 or 4, the output format is “yyyy amount”. When users choose 5, the output is a table. First column presents all types of expenses, second column shows the corresponding proportion (in %).
+When checking **financial states**, the system output guidance message including five options. When users choose 1 or 3, the output format is "*yyyy-mm amount*". When users choose 2 or 4, the output format is "*yyyy amount*". When users choose 5, the output is a table. First column presents all types of expenses, second column shows the corresponding proportion (in %).
 
-Whenever outputting the amount of money, our system will round the fractional part to two decimal places.
+Whenever outputting the **amount of money**, our system will round the fractional part to **two decimal places**.
 
-When users finally quit our system, it will output a thank-you message.
+When users finally quit our system, it will output a **thank-you message**.
 ## Compilation and Execution Instructions:
