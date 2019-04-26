@@ -33,7 +33,7 @@ Our system allows users to edit one item (i.e. one piece of information) in each
 #### 5)	Show records.
 Our system can show all the records save in the system by standard output. Also, the net income based on all records in the presented list will be shown to users.
 #### 6)	Write records to file
-Our system can create a file called "Financial_Records.txt" and output all the records to this file. If users choose this command multiple times, the system will overwrite this file.
+Our system can create a file according to the file name provided by users and output all records to this file. An error message will be printed if our system cannot open the file. 
 #### 7)	Search records.
 Our system allows users to search for certain records by amount, type, account, and date. All they need to do is to follow the guidance and answer some questions. They can choose whether to search by certain piece of information or not. And if they search by amount, they need to provide the minimum and maximum amount of money. If they search by date, they need to provide the earliest date and latest date.
 #### 8)	Check financial states.
@@ -64,7 +64,7 @@ A **separation line** will be output to separate each user input and each progra
 
 Our system always outputs some **guidance messages** whenever users need to input something. For multiple-choice questions in some modules, our system output **descriptions** followed by some options and **each option occupies one line**.
 
-Our system also outputs some **confirmation message** when a certain operation is done. After users edit a record, it will output "*The edition is done.*". After users delete a record, it will output "*The deletion is done.*". After writing records to file, it will output "*All your financial records have been written to the file "Financial_Records.txt".*". After users set or change the budget, it will output "*Budget setting successful.*". After changing the type of currency, it will output "*Operation successful*".
+Our system also outputs some **confirmation message** when a certain operation is done. After users edit a record, it will output "*The edition is done.*". After users delete a record, it will output "*The deletion is done.*". After writing records to a file, it will output "*All your financial records have been written to filename.*"(filename is the name of the external file). After users set or change the budget, it will output "*Budget setting successful.*". After changing the type of currency, it will output "*Operation successful*".
 
 Our system outputs **alert message** when necessary. If the system cannot open the file when adding records from a file, it will output an alert message "*Error in the file opening!*" and continue to next round of operation. Also, there would be an alert if the expenditure of any month exceeds the budget. The alert message of one month follows the format of "*Your monthly expenditure in yyyy-mm exceeds the budget by amount*" (amount is a double representing the exceeded amount of money). The message may contain multiple lines because there might not be only one monthly expenditure that exceeds the budget.
 
