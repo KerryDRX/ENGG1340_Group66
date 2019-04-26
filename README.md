@@ -5,12 +5,19 @@ It is significant to manage our financial status and make better use of our mone
 The problems that our system need to solve include recording income and expenditure, recording additional information with the corresponding amount such as type, account, and date. The problems also include reminding customers when they spend more than their budget, telling them all details of the wealth status they have recorded.  We need to help customers calculate their net income in the past. We also need to find specific wealth records that meet the criteria based on some of the information provided by the customer. Showing customers their income and expenditure in recent months and telling them the proportion of expenses would be beneficial to their better management of wealth in the future. Furthermore, we need to solve the problems that people who occasionally travel abroad need to change the type and amount of currency records according to the exchange rate. Sometimes customers will need to pass in large amounts of data at once or export their wealth records for other uses.
 ## Problem Setting:
 When adding records to the system, users should provide full information on each record. Each record contains five items in order of amount, income or expenditure, type, account, date. The amount of money in the transactions entered by the user should not be too large (less than 100 billion).
+
 When entering the system, users can choose whether to set the expenditure budget or not according to their wishes. The budget can be changed after each round of operation. Users will be reminded of the exceeded amount and the corresponding month if the expenditure exceeds the budget. 
+
 Customers can search for specific records according to a certain interval of date or amount of money input by themselves. Customers can also choose whether to search for records by type and account. 
+
 When checking financial states, customers should choose one operation provided by our system. They can check monthly or yearly income and expenses based on the records saved by our system. Customers can also check the ratio of one type of expenditure to the overall cost regarding all expenditure records.
+
 When showing a list of records to users, we present a bill. The content of bill can be output as a file. Records in the bill are sorted according to the dates entered by the user. And each record is attached with a serial number according to its position in the bill.  In performing various calculations about the amount of money, our system will round the fractional part to two decimal places as most bank statements do.
+
 Each time customers choose to edit or delete, they can only operate on one information. Unless the customer wants to change or delete something, the records input will always exist in the bill.
+
 As for currency conversion, our system will provide a list of commonly used exchange rates based on Hong Kong users. And all they need to do is to enter the ratio and the amount of money in each record will be changed. The list is just for reference because the exchange rates change over time. If users want to have more accurate records, they need to query the real-time exchange rates themselves.
+
 If users finish using the system, they can choose to quit and all data except the file output will be deleted.
 ## Functionalities and Features:
 #### 1)	Budget setting. 
@@ -34,20 +41,34 @@ Our system can change the amount of money of all records if users provide the ex
 ## Input and Output Specifications:
 ### Input:
 All inputs should strictly follow the rules that our output guidance messages provide. 
-All multiple-choice questions with given options must be only inputted with the given number (e.g. Users should not input “3” or “2. Expenditure” if the above output message is “Please indicate whether it is income or expenditure. 1. Income 2. Expenditure”).
+
+All multiple-choice questions with given options must be only inputted with the given number (e.g. Users should not input “3” or “*2. Expenditure*” if the above output message is *“Please indicate whether it is income or expenditure. 1. Income 2. Expenditure”*).
+
 When users input the amount of money of a record, the number (variable type: double) should not be too large (less than 100 billion).
+
 When users input the date of a record, the input should be a 6-digit integer in the format of yyyymmdd and it must represent a valid date in real life (e.g. Users should input 20190427 which represents April 27th in 2019).  
+
 When adding records from a file, users should input the full name of a file (Input “test.txt” instead of “test” if the records are in an existing file test.txt). Furthermore, users must ensure that each line of this file should contain five numbers which also follow the rules mentioned above (e.g. A line contains "5000 2 6 7 20190101” is valid while a line contains "5000 Expenditure Education Cash 20190101" is invalid). 
 ### Output:
 When users first enter our accounting system, it will output a welcome message. 
+
 Then for the beginning budget setting module, it output a message including two options to ask whether users set budget or not. If users choose 1, it will output “Please input your budget for every month.” If you choose 2, it will output "You have chosen not to set a budget. You can set your budget afterward.". If you input an invalid choice, it will output "Invalid choice. Budget setting failed. You can set your budget afterward.".
+
 The message “Please make a choice:” followed by “0. Quit” and 9 main functionalities of our system can be considered as the main interface of our accounting system. Hence, each round of operation starts with this.
+
 A separation line will be output to separate each user input and each program output and output of different modules during the running of our system. This allows users to capture and identify information more clearly when running programs directly.
+
 Our system always outputs some guidance messages when users need to input something. For multiple-choice questions in some modules, our system output descriptions followed by some options and each option occupies one line.
+
 Our system also outputs some confirmation message when a certain operation is done. After users edit a record, it will output “The edition is done.". After users delete a record, it will output “The deletion is done.”. After writing records to file, it will output "All your financial records have been written to the file "Financial_Records.txt".”. After users set or change the budget, it will output “Budget setting successful.”. After changing the type of currency, it will output “Operation successful”.
+
 Our system outputs alert message when necessary. If the system cannot open the file when adding records from a file, it will output an alert message “Error in the file opening!” and continue to next round of operation. Also, there would be an alert if the expenditure of any month exceeds the budget. The alert message of one month follows the format of “Your monthly expenditure in yyyy-mm exceeds the budget by amount” (amount is a double representing the exceeded amount of money)”. The message may contain multiple lines because there might not be only one monthly expenditure that exceeds the budget.
+
 Whenever the system shows a list of records (it happens when users edit, show, search records or write records to file), it will output in such a format. The first line is the description of each item in one line of record. Six items are “Serial Number”, “Amount”, “Income/Expenses”, “Type”, “Account” and “Date”. The following lines are the details of the records. Records in the list are sorted based on their dates and each record is attached with a serial number. The last line output tells users the total net income based on records of the list above (except when writing records to file).
+
 When checking financial states, the system output guidance message including five options. When users choose 1 or 3, the output format is “yyyy-mm amount”. When users choose 2 or 4, the output format is “yyyy amount”. When users choose 5, the output is a table. First column presents all types of expenses, second column shows the corresponding proportion (in %).
+
 Whenever outputting the amount of money, our system will round the fractional part to two decimal places.
+
 When users finally quit our system, it will output a thank-you message.
 ## Compilation and Execution Instructions:
