@@ -4,9 +4,11 @@ It is significant to manage our financial status and make better use of our mone
 
 The problems that our system need to solve include recording income and expenditure, recording additional information with the corresponding amount such as type, account, and date. The problems also include reminding customers when they spend more than their budget, telling them all details of the wealth status they have recorded.  We need to help customers calculate their net income in the past. We also need to find specific wealth records that meet the criteria based on some of the information provided by the customer. Showing customers their income and expenditure in recent months and telling them the proportion of expenses would be beneficial to their better management of wealth in the future. Furthermore, we need to solve the problems that people who occasionally travel abroad need to change the type and amount of currency records according to the exchange rate. Sometimes customers will need to pass in large amounts of data at once or export their wealth records for other uses.
 ## Problem Setting:
-When adding records to the system, users should provide full information on each record. Each record contains five items in order of amount, income or expenditure, type, account, date. The amount of money in the transactions entered by the user should not be too large (less than 100 billion).
+On entering the system, users can choose whether to set the expenditure budget or not according to their wishes. The budget can be changed after each round of operation. Users will be reminded of the exceeded amount and the corresponding month if the expenditure exceeds the budget.
 
-When entering the system, users can choose whether to set the expenditure budget or not according to their wishes. The budget can be changed after each round of operation. Users will be reminded of the exceeded amount and the corresponding month if the expenditure exceeds the budget. 
+Before performing other functionalities, users must add record(s) to the system at first.
+
+When adding records to the system, users should provide full information on each record. Each record contains five items in order of amount, income or expenditure, type, account, date. The amount of money in the transactions entered by the user should not be too large (less than 100 billion).
 
 Customers can search for specific records according to a certain interval of date or amount of money input by themselves. Customers can also choose whether to search for records by type and account. 
 
@@ -46,6 +48,8 @@ All multiple-choice questions with given options must be **only** inputted with 
 
 When users input the amount of money of a record, the number (variable type: double) **should not be too large** (less than 100 billion).
 
+When editing or deleting records, users **should not** input any number that **beyond** the serial numbers shown(output) in the table above.
+
 When users input the date of a record, the input should be a **6-digit integer** in the format of *yyyymmdd* and it must represent a **valid date** in real life (e.g. Users should input "*20190427*" which represents April 27th in 2019).  
 
 When adding records from a file, users should input the **full name** of a file (Input "*test.txt*" instead of "*test*" if the records are in an existing file test.txt). Furthermore, users must ensure that each line of this file should contain **five numbers** which also follow the rules mentioned above (e.g. A line contains "*5000 2 6 7 20190101*" is **valid** while a line contains "*5000 Expenditure Education Cash 20190101*" is **invalid**). 
@@ -66,7 +70,7 @@ Our system outputs **alert message** when necessary. If the system cannot open t
 
 Whenever the system **shows a list of records** (it happens when users edit, show, search records or write records to file), it will output in such a format. The first line is the description of each item in one line of record. **Six items** are "*Serial Number*", "*Amount*", "*Income/Expenses*", "*Type*", "*Account*" and "*Date*". The following lines are the details of the records. Records in the list are sorted based on their dates and each record is attached with a serial number. The last line output tells users the **total net income** based on records of the list above (except when writing records to file).
 
-When checking **financial states**, the system output guidance message including five options. When users choose 1 or 3, the output format is "*yyyy-mm amount*". When users choose 2 or 4, the output format is "*yyyy amount*". When users choose 5, the output is a table. First column presents all types of expenses, second column shows the corresponding proportion (in %).
+When checking **financial states**, the system output guidance message including five options. When users choose 1 or 3, the output format is "*yyyy-mm amount*". When users choose 2 or 4, the output format is "*yyyy amount*". When users choose 5, the output is a table. First column presents all types of expenses, second column shows the corresponding proportion in % (round fractional part to two decimal places).
 
 Whenever outputting the **amount of money**, our system will round the fractional part to **two decimal places**.
 
