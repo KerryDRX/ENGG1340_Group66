@@ -1,0 +1,279 @@
+************************************************
+*******Welcome to Our Accounting System!********
+************************************************
+Do you want to set up your budget for every month or not?
+Please note that there will be an alert if your expenditure in any month exceeds the budget.
+1. Yes, I do.
+2. No, I don't.
+You have chosen not to set a budget. You can set your budget afterward.
+Do you want to enter your financial record manually or input it from an existing file?
+1. I want to enter my financial record manually.
+2. I want to input my financial record from my file.
+Please enter your file name.
+Please note that each line of the file should follow the following format.
+(e.g. A line "5000 2 6 7 20190101" which represents each financial record instead of "5000 Expenditure Education Cash 20190101" is valid)
+Please make a choice:
+0. Quit
+1. Budget Setting
+2. Add Records of Income or Expenses
+3. Delete Financial Records
+4. Edit Financial Records
+5. Show Financial Records
+6. Write Financial Records to a File
+7. Search for Financial Records
+8. Check Financial State
+9. Change the Type of Currency
+Do you want to enter your financial record manually or input it from an existing file?
+1. I want to enter my financial record manually.
+2. I want to input my financial record from my file.
+Please enter your file name.
+Please note that each line of the file should follow the following format.
+(e.g. A line "5000 2 6 7 20190101" which represents each financial record instead of "5000 Expenditure Education Cash 20190101" is valid)
+Please make a choice:
+0. Quit
+1. Budget Setting
+2. Add Records of Income or Expenses
+3. Delete Financial Records
+4. Edit Financial Records
+5. Show Financial Records
+6. Write Financial Records to a File
+7. Search for Financial Records
+8. Check Financial State
+9. Change the Type of Currency
+Do you want to enter your financial record manually or input it from an existing file?
+1. I want to enter my financial record manually.
+2. I want to input my financial record from my file.
+Please enter your file name.
+Please note that each line of the file should follow the following format.
+(e.g. A line "5000 2 6 7 20190101" which represents each financial record instead of "5000 Expenditure Education Cash 20190101" is valid)
+Please make a choice:
+0. Quit
+1. Budget Setting
+2. Add Records of Income or Expenses
+3. Delete Financial Records
+4. Edit Financial Records
+5. Show Financial Records
+6. Write Financial Records to a File
+7. Search for Financial Records
+8. Check Financial State
+9. Change the Type of Currency
+Search by amount?
+0. No.
+1. Yes.
+Please indicate whether it is income or expenditure.
+0. Any of the Following
+1. Income
+2. Expenditure
+Please choose the type of your account.
+0. Any of the Following
+1. Octopus
+2. Credit Card
+3. Bank Card
+4. WeChat Pay
+5. Alipay
+6. University Card
+7. Cash
+Search by time?
+0. No.
+1. Yes.
+Serial Number       Amount   Income/Expenses        Type          Account       Date
+            1           1.10          Income       Interest          Octopus  19990606
+            2           2.20       Expeneses           Food      Credit Card  20000411
+            3        9876.99       Expeneses      Houseware        Bank Card  20121212
+            4        2234.35       Expeneses      Houseware        Bank Card  20170707
+            5        4723.00          Income        Lottery  University Card  20171231
+            6          45.43       Expeneses           Food      Credit Card  20180101
+            7       13424.00          Income        Lottery        Bank Card  20180227
+            8         414.42       Expeneses           Food      Credit Card  20180228
+            9        4234.51       Expeneses Transportation          Octopus  20180301
+           10        2123.00          Income         Others          Octopus  20180301
+           11        2344.51       Expeneses         Others       WeChat Pay  20180301
+           12          23.00          Income        Lottery           Others  20180302
+           13           5.00       Expeneses      Houseware       WeChat Pay  20180303
+           14           0.55          Income           Wage           Alipay  20180303
+           15        5000.00       Expeneses      Houseware  University Card  20180303
+           16       53261.00       Expeneses      Houseware       WeChat Pay  20180718
+           17       87645.00          Income           Gift           Alipay  20181120
+           18     1234567.00       Expeneses       Medicine          Octopus  20181130
+           19         323.00       Expeneses         Others           Others  20181231
+           20        1000.00          Income       Interest          Octopus  20190101
+           21      523435.32       Expeneses           Food      Credit Card  20190101
+           22         741.88          Income           Wage           Alipay  20190201
+           23         250.00       Expeneses         Others           Others  20190202
+           24          77.77       Expeneses Transportation  University Card  20190203
+           25          66.99       Expeneses  Entertainment       WeChat Pay  20190204
+           26          32.00          Income         Others      Credit Card  20190220
+           27          52.34       Expeneses      Houseware        Bank Card  20190227
+           28    98765432.10       Expeneses Transportation           Alipay  20190301
+           29         666.00          Income           Gift        Bank Card  20190301
+           30        4134.61       Expeneses       Clothing          Octopus  20190330
+           31         123.43       Expeneses      Education           Alipay  20190420
+           32        6780.00       Expeneses      Insurance      Credit Card  20190422
+           33       10000.00          Income         Others       WeChat Pay  20190422
+           34          10.00          Income           Gift      Credit Card  20190426
+           35         666.66          Income     Investment        Bank Card  20190426
+           36      100000.00          Income     Investment  University Card  20190427
+           37        2134.12       Expeneses      Education       WeChat Pay  20190501
+           38      134134.00       Expeneses       Medicine      Credit Card  20190505
+           39       12345.23          Income         Others  University Card  20190517
+           40   123456789.00          Income           Gift           Alipay  20200101
+The total net income of the chosen records is 22941261.33.
+Please make a choice:
+0. Quit
+1. Budget Setting
+2. Add Records of Income or Expenses
+3. Delete Financial Records
+4. Edit Financial Records
+5. Show Financial Records
+6. Write Financial Records to a File
+7. Search for Financial Records
+8. Check Financial State
+9. Change the Type of Currency
+Search by amount?
+0. No.
+1. Yes.
+Please enter the minimun and maximun amount.
+Please indicate whether it is income or expenditure.
+0. Any of the Following
+1. Income
+2. Expenditure
+Please choose the type of your account.
+0. Any of the Following
+1. Octopus
+2. Credit Card
+3. Bank Card
+4. WeChat Pay
+5. Alipay
+6. University Card
+7. Cash
+Search by time?
+0. No.
+1. Yes.
+Please enter the earliest date and latest date.
+Serial Number       Amount   Income/Expenses        Type          Account       Date
+            4        2234.35       Expeneses      Houseware        Bank Card  20170707
+            5        4723.00          Income        Lottery  University Card  20171231
+            7       13424.00          Income        Lottery        Bank Card  20180227
+            8         414.42       Expeneses           Food      Credit Card  20180228
+            9        4234.51       Expeneses Transportation          Octopus  20180301
+           10        2123.00          Income         Others          Octopus  20180301
+           11        2344.51       Expeneses         Others       WeChat Pay  20180301
+           15        5000.00       Expeneses      Houseware  University Card  20180303
+           16       53261.00       Expeneses      Houseware       WeChat Pay  20180718
+           17       87645.00          Income           Gift           Alipay  20181120
+           19         323.00       Expeneses         Others           Others  20181231
+           20        1000.00          Income       Interest          Octopus  20190101
+           22         741.88          Income           Wage           Alipay  20190201
+           23         250.00       Expeneses         Others           Others  20190202
+           29         666.00          Income           Gift        Bank Card  20190301
+           30        4134.61       Expeneses       Clothing          Octopus  20190330
+           31         123.43       Expeneses      Education           Alipay  20190420
+           32        6780.00       Expeneses      Insurance      Credit Card  20190422
+           33       10000.00          Income         Others       WeChat Pay  20190422
+           35         666.66          Income     Investment        Bank Card  20190426
+           36      100000.00          Income     Investment  University Card  20190427
+The total net income of the chosen records is 141889.71.
+Please make a choice:
+0. Quit
+1. Budget Setting
+2. Add Records of Income or Expenses
+3. Delete Financial Records
+4. Edit Financial Records
+5. Show Financial Records
+6. Write Financial Records to a File
+7. Search for Financial Records
+8. Check Financial State
+9. Change the Type of Currency
+Search by amount?
+0. No.
+1. Yes.
+Please enter the minimun and maximun amount.
+Please indicate whether it is income or expenditure.
+0. Any of the Following
+1. Income
+2. Expenditure
+Please choose the type of your expenditure.
+0. Any of the Following
+1. Clothing
+2. Food
+3. Houseware
+4. Transportation
+5. Entertainment
+6. Education
+7. Medicine
+8. Insurance
+9. Others
+Please choose the type of your account.
+0. Any of the Following
+1. Octopus
+2. Credit Card
+3. Bank Card
+4. WeChat Pay
+5. Alipay
+6. University Card
+7. Cash
+Search by time?
+0. No.
+1. Yes.
+Serial Number       Amount   Income/Expenses        Type          Account       Date
+           11        2344.51       Expeneses         Others       WeChat Pay  20180301
+           16       53261.00       Expeneses      Houseware       WeChat Pay  20180718
+           37        2134.12       Expeneses      Education       WeChat Pay  20190501
+The total net income of the chosen records is -57739.63.
+Please make a choice:
+0. Quit
+1. Budget Setting
+2. Add Records of Income or Expenses
+3. Delete Financial Records
+4. Edit Financial Records
+5. Show Financial Records
+6. Write Financial Records to a File
+7. Search for Financial Records
+8. Check Financial State
+9. Change the Type of Currency
+Search by amount?
+0. No.
+1. Yes.
+Please enter the minimun and maximun amount.
+Please indicate whether it is income or expenditure.
+0. Any of the Following
+1. Income
+2. Expenditure
+Please choose the type of your income.
+0. Any of the Following
+1. Interest
+2. Investment
+3. Wage
+4. Lottery
+5. Gift
+6. Others
+Please choose the type of your account.
+0. Any of the Following
+1. Octopus
+2. Credit Card
+3. Bank Card
+4. WeChat Pay
+5. Alipay
+6. University Card
+7. Cash
+Search by time?
+0. No.
+1. Yes.
+Please enter the earliest date and latest date.
+Serial Number       Amount   Income/Expenses        Type          Account       Date
+           29         666.00          Income           Gift        Bank Card  20190301
+The total net income of the chosen records is 666.00.
+Please make a choice:
+0. Quit
+1. Budget Setting
+2. Add Records of Income or Expenses
+3. Delete Financial Records
+4. Edit Financial Records
+5. Show Financial Records
+6. Write Financial Records to a File
+7. Search for Financial Records
+8. Check Financial State
+9. Change the Type of Currency
+************************************************
+***Thank You for Using Our Accounting System!***
+************************************************

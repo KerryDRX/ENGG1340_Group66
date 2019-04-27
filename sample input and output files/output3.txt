@@ -1,0 +1,83 @@
+************************************************
+*******Welcome to Our Accounting System!********
+************************************************
+Do you want to set up your budget for every month or not?
+Please note that there will be an alert if your expenditure in any month exceeds the budget.
+1. Yes, I do.
+2. No, I don't.
+You have chosen not to set a budget. You can set your budget afterward.
+Do you want to enter your financial record manually or input it from an existing file?
+1. I want to enter my financial record manually.
+2. I want to input my financial record from my file.
+Please enter your file name.
+Please note that each line of the file should follow the following format.
+(e.g. A line "5000 2 6 7 20190101" which represents each financial record instead of "5000 Expenditure Education Cash 20190101" is valid)
+Please make a choice:
+0. Quit
+1. Budget Setting
+2. Add Records of Income or Expenses
+3. Delete Financial Records
+4. Edit Financial Records
+5. Show Financial Records
+6. Write Financial Records to a File
+7. Search for Financial Records
+8. Check Financial State
+9. Change the Type of Currency
+Serial Number       Amount   Income/Expenses        Type          Account       Date
+            1        2234.35       Expeneses      Houseware        Bank Card  20170707
+            2          45.43       Expeneses           Food      Credit Card  20180101
+            3       87645.00          Income           Gift           Alipay  20181120
+            4     1234567.00       Expeneses       Medicine          Octopus  20181130
+            5         323.00       Expeneses         Others           Others  20181231
+            6        1000.00          Income       Interest          Octopus  20190101
+            7      523435.32       Expeneses           Food      Credit Card  20190101
+            8          32.00          Income         Others      Credit Card  20190220
+            9    98765432.10       Expeneses Transportation           Alipay  20190301
+           10         666.00          Income           Gift        Bank Card  20190301
+           11          10.00          Income           Gift      Credit Card  20190426
+           12      100000.00          Income     Investment  University Card  20190427
+           13        2134.12       Expeneses      Education       WeChat Pay  20190501
+           14       12345.23          Income         Others  University Card  20190517
+Your total net income is -100326473.09.
+Please enter the serial number of the record you want to delete.
+The deletion is done.
+Please make a choice:
+0. Quit
+1. Budget Setting
+2. Add Records of Income or Expenses
+3. Delete Financial Records
+4. Edit Financial Records
+5. Show Financial Records
+6. Write Financial Records to a File
+7. Search for Financial Records
+8. Check Financial State
+9. Change the Type of Currency
+Serial Number       Amount   Income/Expenses        Type          Account       Date
+            1        2234.35       Expeneses      Houseware        Bank Card  20170707
+            2          45.43       Expeneses           Food      Credit Card  20180101
+            3       87645.00          Income           Gift           Alipay  20181120
+            4     1234567.00       Expeneses       Medicine          Octopus  20181130
+            5         323.00       Expeneses         Others           Others  20181231
+            6        1000.00          Income       Interest          Octopus  20190101
+            7          32.00          Income         Others      Credit Card  20190220
+            8    98765432.10       Expeneses Transportation           Alipay  20190301
+            9         666.00          Income           Gift        Bank Card  20190301
+           10          10.00          Income           Gift      Credit Card  20190426
+           11      100000.00          Income     Investment  University Card  20190427
+           12        2134.12       Expeneses      Education       WeChat Pay  20190501
+           13       12345.23          Income         Others  University Card  20190517
+Your total net income is -99803037.77.
+Please make a choice:
+0. Quit
+1. Budget Setting
+2. Add Records of Income or Expenses
+3. Delete Financial Records
+4. Edit Financial Records
+5. Show Financial Records
+6. Write Financial Records to a File
+7. Search for Financial Records
+8. Check Financial State
+9. Change the Type of Currency
+************************************************
+***Thank You for Using Our Accounting System!***
+************************************************

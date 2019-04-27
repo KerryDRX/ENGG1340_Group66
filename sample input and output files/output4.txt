@@ -1,0 +1,216 @@
+************************************************
+*******Welcome to Our Accounting System!********
+************************************************
+Do you want to set up your budget for every month or not?
+Please note that there will be an alert if your expenditure in any month exceeds the budget.
+1. Yes, I do.
+2. No, I don't.
+Please input your budget for every month.
+Budget setting successful.
+Do you want to enter your financial record manually or input it from an existing file?
+1. I want to enter my financial record manually.
+2. I want to input my financial record from my file.
+Please enter your file name.
+Please note that each line of the file should follow the following format.
+(e.g. A line "5000 2 6 7 20190101" which represents each financial record instead of "5000 Expenditure Education Cash 20190101" is valid)
+Please make a choice:
+0. Quit
+1. Budget Setting
+2. Add Records of Income or Expenses
+3. Delete Financial Records
+4. Edit Financial Records
+5. Show Financial Records
+6. Write Financial Records to a File
+7. Search for Financial Records
+8. Check Financial State
+9. Change the Type of Currency
+Serial Number       Amount   Income/Expenses        Type          Account       Date
+            1           1.10          Income       Interest          Octopus  19990606
+            2           2.20       Expeneses           Food      Credit Card  20000411
+            3        9876.99       Expeneses      Houseware        Bank Card  20121212
+            4         741.88          Income           Wage           Alipay  20190201
+            5         250.00       Expeneses         Others           Others  20190202
+            6          77.77       Expeneses Transportation  University Card  20190203
+            7          66.99       Expeneses  Entertainment       WeChat Pay  20190204
+            8          52.34       Expeneses      Houseware        Bank Card  20190227
+            9        4134.61       Expeneses       Clothing          Octopus  20190330
+           10         123.43       Expeneses      Education           Alipay  20190420
+           11        6780.00       Expeneses      Insurance      Credit Card  20190422
+           12       10000.00          Income         Others       WeChat Pay  20190422
+           13         666.66          Income     Investment        Bank Card  20190426
+           14   123456789.00          Income           Gift           Alipay  20200101
+Your total net income is 123446834.31.
+Please enter the serial number of the record you want to edit.
+Please choose what you want to edit.
+1. Amount
+2. Type of Income or Expeneses
+3. Account
+4. Date
+Please indicate whether it is income or expenditure.
+1. Income
+2. Expenditure
+Please choose the type of your expenditure.
+1. Clothing
+2. Food
+3. Houseware
+4. Transportation
+5. Entertainment
+6. Education
+7. Medicine
+8. Insurance
+9. Others
+The edition is done.
+Your monthly expenditure in 2020-01 exceeds the budget by 123446789.00.
+Please make a choice:
+0. Quit
+1. Budget Setting
+2. Add Records of Income or Expenses
+3. Delete Financial Records
+4. Edit Financial Records
+5. Show Financial Records
+6. Write Financial Records to a File
+7. Search for Financial Records
+8. Check Financial State
+9. Change the Type of Currency
+Serial Number       Amount   Income/Expenses        Type          Account       Date
+            1           1.10          Income       Interest          Octopus  19990606
+            2           2.20       Expeneses           Food      Credit Card  20000411
+            3        9876.99       Expeneses      Houseware        Bank Card  20121212
+            4         741.88          Income           Wage           Alipay  20190201
+            5         250.00       Expeneses         Others           Others  20190202
+            6          77.77       Expeneses Transportation  University Card  20190203
+            7          66.99       Expeneses  Entertainment       WeChat Pay  20190204
+            8          52.34       Expeneses      Houseware        Bank Card  20190227
+            9        4134.61       Expeneses       Clothing          Octopus  20190330
+           10         123.43       Expeneses      Education           Alipay  20190420
+           11        6780.00       Expeneses      Insurance      Credit Card  20190422
+           12       10000.00          Income         Others       WeChat Pay  20190422
+           13         666.66          Income     Investment        Bank Card  20190426
+           14   123456789.00       Expeneses Transportation           Alipay  20200101
+Your total net income is -123466743.69.
+Please enter the serial number of the record you want to edit.
+Please choose what you want to edit.
+1. Amount
+2. Type of Income or Expeneses
+3. Account
+4. Date
+Please enter the amount of money.
+The edition is done.
+Please make a choice:
+0. Quit
+1. Budget Setting
+2. Add Records of Income or Expenses
+3. Delete Financial Records
+4. Edit Financial Records
+5. Show Financial Records
+6. Write Financial Records to a File
+7. Search for Financial Records
+8. Check Financial State
+9. Change the Type of Currency
+Serial Number       Amount   Income/Expenses        Type          Account       Date
+            1           1.10          Income       Interest          Octopus  19990606
+            2           2.20       Expeneses           Food      Credit Card  20000411
+            3        9876.99       Expeneses      Houseware        Bank Card  20121212
+            4         741.88          Income           Wage           Alipay  20190201
+            5         250.00       Expeneses         Others           Others  20190202
+            6          77.77       Expeneses Transportation  University Card  20190203
+            7          66.99       Expeneses  Entertainment       WeChat Pay  20190204
+            8          52.34       Expeneses      Houseware        Bank Card  20190227
+            9        4134.61       Expeneses       Clothing          Octopus  20190330
+           10         123.43       Expeneses      Education           Alipay  20190420
+           11        6780.00       Expeneses      Insurance      Credit Card  20190422
+           12       10000.00          Income         Others       WeChat Pay  20190422
+           13         666.66          Income     Investment        Bank Card  20190426
+           14         521.00       Expeneses Transportation           Alipay  20200101
+Your total net income is -10475.69.
+Please enter the serial number of the record you want to edit.
+Please choose what you want to edit.
+1. Amount
+2. Type of Income or Expeneses
+3. Account
+4. Date
+Please choose the type of your account.
+1. Octopus
+2. Credit Card
+3. Bank Card
+4. WeChat Pay
+5. Alipay
+6. University Card
+7. Cash
+The edition is done.
+Please make a choice:
+0. Quit
+1. Budget Setting
+2. Add Records of Income or Expenses
+3. Delete Financial Records
+4. Edit Financial Records
+5. Show Financial Records
+6. Write Financial Records to a File
+7. Search for Financial Records
+8. Check Financial State
+9. Change the Type of Currency
+Serial Number       Amount   Income/Expenses        Type          Account       Date
+            1           1.10          Income       Interest          Octopus  19990606
+            2           2.20       Expeneses           Food      Credit Card  20000411
+            3        9876.99       Expeneses      Houseware  University Card  20121212
+            4         741.88          Income           Wage           Alipay  20190201
+            5         250.00       Expeneses         Others           Others  20190202
+            6          77.77       Expeneses Transportation  University Card  20190203
+            7          66.99       Expeneses  Entertainment       WeChat Pay  20190204
+            8          52.34       Expeneses      Houseware        Bank Card  20190227
+            9        4134.61       Expeneses       Clothing          Octopus  20190330
+           10         123.43       Expeneses      Education           Alipay  20190420
+           11        6780.00       Expeneses      Insurance      Credit Card  20190422
+           12       10000.00          Income         Others       WeChat Pay  20190422
+           13         666.66          Income     Investment        Bank Card  20190426
+           14         521.00       Expeneses Transportation           Alipay  20200101
+Your total net income is -10475.69.
+Please enter the serial number of the record you want to edit.
+Please choose what you want to edit.
+1. Amount
+2. Type of Income or Expeneses
+3. Account
+4. Date
+Please enter the date in the format of "yyyymmdd".
+The edition is done.
+Please make a choice:
+0. Quit
+1. Budget Setting
+2. Add Records of Income or Expenses
+3. Delete Financial Records
+4. Edit Financial Records
+5. Show Financial Records
+6. Write Financial Records to a File
+7. Search for Financial Records
+8. Check Financial State
+9. Change the Type of Currency
+Serial Number       Amount   Income/Expenses        Type          Account       Date
+            1           1.10          Income       Interest          Octopus  19990606
+            2       10000.00          Income         Others       WeChat Pay  19990718
+            3           2.20       Expeneses           Food      Credit Card  20000411
+            4        9876.99       Expeneses      Houseware  University Card  20121212
+            5         741.88          Income           Wage           Alipay  20190201
+            6         250.00       Expeneses         Others           Others  20190202
+            7          77.77       Expeneses Transportation  University Card  20190203
+            8          66.99       Expeneses  Entertainment       WeChat Pay  20190204
+            9          52.34       Expeneses      Houseware        Bank Card  20190227
+           10        4134.61       Expeneses       Clothing          Octopus  20190330
+           11         123.43       Expeneses      Education           Alipay  20190420
+           12        6780.00       Expeneses      Insurance      Credit Card  20190422
+           13         666.66          Income     Investment        Bank Card  20190426
+           14         521.00       Expeneses Transportation           Alipay  20200101
+Your total net income is -10475.69.
+Please make a choice:
+0. Quit
+1. Budget Setting
+2. Add Records of Income or Expenses
+3. Delete Financial Records
+4. Edit Financial Records
+5. Show Financial Records
+6. Write Financial Records to a File
+7. Search for Financial Records
+8. Check Financial State
+9. Change the Type of Currency
+************************************************
+***Thank You for Using Our Accounting System!***
+************************************************

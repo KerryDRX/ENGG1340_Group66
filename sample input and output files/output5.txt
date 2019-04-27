@@ -1,0 +1,53 @@
+************************************************
+*******Welcome to Our Accounting System!********
+************************************************
+Do you want to set up your budget for every month or not?
+Please note that there will be an alert if your expenditure in any month exceeds the budget.
+1. Yes, I do.
+2. No, I don't.
+You have chosen not to set a budget. You can set your budget afterward.
+Do you want to enter your financial record manually or input it from an existing file?
+1. I want to enter my financial record manually.
+2. I want to input my financial record from my file.
+Please enter your file name.
+Please note that each line of the file should follow the following format.
+(e.g. A line "5000 2 6 7 20190101" which represents each financial record instead of "5000 Expenditure Education Cash 20190101" is valid)
+Please make a choice:
+0. Quit
+1. Budget Setting
+2. Add Records of Income or Expenses
+3. Delete Financial Records
+4. Edit Financial Records
+5. Show Financial Records
+6. Write Financial Records to a File
+7. Search for Financial Records
+8. Check Financial State
+9. Change the Type of Currency
+Serial Number       Amount   Income/Expenses        Type          Account       Date
+            1        4723.00          Income        Lottery  University Card  20171231
+            2       13424.00          Income        Lottery        Bank Card  20180227
+            3         414.42       Expeneses           Food      Credit Card  20180228
+            4        4234.51       Expeneses Transportation          Octopus  20180301
+            5        2123.00          Income         Others          Octopus  20180301
+            6        2344.51       Expeneses         Others       WeChat Pay  20180301
+            7          23.00          Income        Lottery           Others  20180302
+            8           5.00       Expeneses      Houseware       WeChat Pay  20180303
+            9           0.55          Income           Wage           Alipay  20180303
+           10        5000.00       Expeneses      Houseware  University Card  20180303
+           11       53261.00       Expeneses      Houseware       WeChat Pay  20180718
+           12      134134.00       Expeneses       Medicine      Credit Card  20190505
+Your total net income is -179099.89.
+Please make a choice:
+0. Quit
+1. Budget Setting
+2. Add Records of Income or Expenses
+3. Delete Financial Records
+4. Edit Financial Records
+5. Show Financial Records
+6. Write Financial Records to a File
+7. Search for Financial Records
+8. Check Financial State
+9. Change the Type of Currency
+************************************************
+***Thank You for Using Our Accounting System!***
+************************************************

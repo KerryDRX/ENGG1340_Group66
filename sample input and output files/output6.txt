@@ -1,0 +1,92 @@
+************************************************
+*******Welcome to Our Accounting System!********
+************************************************
+Do you want to set up your budget for every month or not?
+Please note that there will be an alert if your expenditure in any month exceeds the budget.
+1. Yes, I do.
+2. No, I don't.
+You have chosen not to set a budget. You can set your budget afterward.
+Do you want to enter your financial record manually or input it from an existing file?
+1. I want to enter my financial record manually.
+2. I want to input my financial record from my file.
+Please enter your file name.
+Please note that each line of the file should follow the following format.
+(e.g. A line "5000 2 6 7 20190101" which represents each financial record instead of "5000 Expenditure Education Cash 20190101" is valid)
+Please make a choice:
+0. Quit
+1. Budget Setting
+2. Add Records of Income or Expenses
+3. Delete Financial Records
+4. Edit Financial Records
+5. Show Financial Records
+6. Write Financial Records to a File
+7. Search for Financial Records
+8. Check Financial State
+9. Change the Type of Currency
+Do you want to enter your financial record manually or input it from an existing file?
+1. I want to enter my financial record manually.
+2. I want to input my financial record from my file.
+Please enter your file name.
+Please note that each line of the file should follow the following format.
+(e.g. A line "5000 2 6 7 20190101" which represents each financial record instead of "5000 Expenditure Education Cash 20190101" is valid)
+Please make a choice:
+0. Quit
+1. Budget Setting
+2. Add Records of Income or Expenses
+3. Delete Financial Records
+4. Edit Financial Records
+5. Show Financial Records
+6. Write Financial Records to a File
+7. Search for Financial Records
+8. Check Financial State
+9. Change the Type of Currency
+Do you want to enter your financial record manually or input it from an existing file?
+1. I want to enter my financial record manually.
+2. I want to input my financial record from my file.
+Please enter the amount of money you want to record.
+Please indicate whether it is income or expenditure.
+1. Income
+2. Expenditure
+Please choose the type of your income.
+1. Interest
+2. Investment
+3. Wage
+4. Lottery
+5. Gift
+6. Others
+Please choose the type of your account.
+1. Octopus
+2. Credit Card
+3. Bank Card
+4. WeChat Pay
+5. Alipay
+6. University Card
+7. Cash
+Please enter the date in the format of "yyyymmdd".
+Please make a choice:
+0. Quit
+1. Budget Setting
+2. Add Records of Income or Expenses
+3. Delete Financial Records
+4. Edit Financial Records
+5. Show Financial Records
+6. Write Financial Records to a File
+7. Search for Financial Records
+8. Check Financial State
+9. Change the Type of Currency
+Please enter the file name.
+All your financial records have been written to result1.txt.
+Please make a choice:
+0. Quit
+1. Budget Setting
+2. Add Records of Income or Expenses
+3. Delete Financial Records
+4. Edit Financial Records
+5. Show Financial Records
+6. Write Financial Records to a File
+7. Search for Financial Records
+8. Check Financial State
+9. Change the Type of Currency
+************************************************
+***Thank You for Using Our Accounting System!***
+************************************************

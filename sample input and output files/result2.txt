@@ -1,0 +1,27 @@
+Serial Number       Amount   Income/Expenses        Type          Account       Date
+            1        2234.35       Expeneses      Houseware        Bank Card  20170707
+            2        4723.00          Income        Lottery  University Card  20171231
+            3          45.43       Expeneses           Food      Credit Card  20180101
+            4       13424.00          Income        Lottery        Bank Card  20180227
+            5         414.42       Expeneses           Food      Credit Card  20180228
+            6        4234.51       Expeneses Transportation          Octopus  20180301
+            7        2123.00          Income         Others          Octopus  20180301
+            8        2344.51       Expeneses         Others       WeChat Pay  20180301
+            9          23.00          Income        Lottery           Others  20180302
+           10           5.00       Expeneses      Houseware       WeChat Pay  20180303
+           11           0.55          Income           Wage           Alipay  20180303
+           12        5000.00       Expeneses      Houseware  University Card  20180303
+           13       53261.00       Expeneses      Houseware       WeChat Pay  20180718
+           14      100000.00          Income     Investment  University Card  20181101
+           15       87645.00          Income           Gift           Alipay  20181120
+           16         323.00       Expeneses         Others           Others  20181231
+           17        1000.00          Income       Interest          Octopus  20190101
+           18          32.00          Income         Others      Credit Card  20190220
+           19    98765432.10          Income        Lottery           Alipay  20190301
+           20         666.00          Income           Gift        Bank Card  20190301
+           21          10.00          Income           Gift      Credit Card  20190426
+           22         666.20       Expeneses       Clothing           Others  20190427
+           23          99.00       Expeneses      Insurance      Credit Card  20190427
+           24        2134.12       Expeneses      Education       WeChat Pay  20190501
+           25       12345.00       Expeneses       Medicine      Credit Card  20190505
+           26       12345.23          Income         Others  University Card  20190517
