@@ -74,3 +74,8 @@ Whenever outputting the **amount of money**, our system will round the fractiona
 
 When users finally quit our system, it will output a **thank-you message**.
 ## Compilation and Execution Instructions:
+Please note that users should compile our program in Linus environment. Users should use the make tool and we have Makefile in the master branch for separate compilation. Please make sure that our Makefile and source files are in the same directory before running our program.
+
+Please use "*make main*" to compile the program and "*./main*" to execute the program. If you wish to input commands from a file and output the program output to another file, you should use "*./main <input_filename >output_filename*" to execute the program.
+
+In the file called sample input and output files, we provide input and output text for testing. For example, input10.txt is corresponding to output10.txt. We also have 3 test files and 2 result files used for adding financial records from files or writing financial records from files when running our accounting system.
