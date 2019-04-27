@@ -6,9 +6,9 @@ The problems that our system need to solve include recording income and expendit
 ## Problem Setting:
 On entering the system, users can choose whether to set the expenditure budget or not according to their wishes. The budget can be changed after each round of operation. Users will be reminded of the exceeded amount and the corresponding month if the expenditure exceeds the budget.
 
-Before performing other functionalities, users must add record(s) to the system at first.
+Before performing other functionalities, users must add record(s) to the system at first. Also, during the running of our system, users should not delete all records.
 
-When adding records to the system, users should provide full information on each record. Each record contains five items in order of amount, income or expenditure, type, account, date. The amount of money in the transactions entered by the user should not be too large (less than 100 billion).
+When adding records to the system, users should provide full information on each record. Each record contains five items in order of amount, income or expenditure, type, account, date. The amount of money in the transactions and the budget entered by the user should be larger than 0 and smaller than 10 billion.
 
 Customers can search for specific records according to a certain interval of date or amount of money input by themselves. Customers can also choose whether to search for records by type and account. 
 
@@ -29,7 +29,7 @@ Our system allows users to add financial records by standard input or file input
 #### 3)	Delete records.
 Our system allows users to delete one record in each round of operation. A list will be shown to users and they should provide the serial number of the record they wish to delete.
 #### 4)	Edit records.
-Our system allows users to edit one item (i.e. one piece of information) in each round of operation. A list will be shown to users and they should provide the serial number of the record they wish to edit and answer some questions to finish the edition.
+Our system allows users to edit items (i.e. some piece of information) in each round of operation. A list will be shown to users and they should provide the serial number of the record they wish to edit and answer some questions to finish the edition.
 #### 5)	Show records.
 Our system can show all the records save in the system by standard output. Also, the net income based on all records in the presented list will be shown to users.
 #### 6)	Write records to file
@@ -42,11 +42,11 @@ Our system allows users to check their financial states. They can choose to chec
 Our system can change the amount of money of all records if users provide the exchange rate. We also give users some commonly used exchange rates based on Hong Kong users for reference. Once the amount changes, it will not be restored.
 ## Input and Output Specifications:
 ### Input:
-All inputs should strictly follow the rules that our output guidance messages provide. 
+All inputs should strictly follow the rules that our output guidance messages provide. Users must follow the guidance to input record(s) at first on entering the system, and users **should not delete all the records** afterward.
 
 All multiple-choice questions with given options must be **only** inputted with the **given number** (e.g. Users **should not** input "*3*" or "*2. Expenditure*" if the above output message is "*Please indicate whether it is income or expenditure. 1. Income 2. Expenditure*").
 
-When users input the amount of money of a record, the number (variable type: double) **should not be too large** (less than 100 billion).
+When users input the amount of money of a record or the budget, the number (variable type: double) **should be** larger than 0 and smaller than 10 billion.
 
 When editing or deleting records, users **should not** input any number that **beyond** the serial numbers shown(output) in the table above.
 
@@ -59,8 +59,6 @@ When users first enter our accounting system, it will output a **welcome message
 Then for the **beginning budget setting** module, it output a message including two options to ask whether users set budget or not. If users choose 1, it will output "*Please input your budget for every month.*" If you choose 2, it will output "*You have chosen not to set a budget. You can set your budget afterward.*". If you input an invalid choice, it will output "*Invalid choice. Budget setting failed. You can set your budget afterward.*".
 
 The message "*Please make a choice:*" followed by "*0. Quit*" and 9 main functionalities of our system can be considered as the **main interface** of our accounting system. Hence, each round of operation starts with this.
-
-A **separation line** will be output to separate each user input and each program output and output of different modules during the running of our system. This allows users to capture and identify information more clearly when running programs directly.
 
 Our system always outputs some **guidance messages** whenever users need to input something. For multiple-choice questions in some modules, our system output **descriptions** followed by some options and **each option occupies one line**.
 
